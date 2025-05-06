@@ -1,0 +1,91 @@
+body { 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+#divhedaer{
+    width: 100%;
+    padding: auto;
+    height: 70px;
+   background-color: #ffffff;
+}
+
+#imghedaer{
+    
+    width: 50px;
+padding: 10px;
+margin-top: 5px;
+}
+
+hr{
+ height: 40px;
+ width: 100%;
+ background-color: #f1f1f1;
+ border: 0px;
+}
+
+#divform1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+  height: 100vh; 
+}
+
+#botonform{
+    display: flex;
+
+}
+
+#bodeimg{
+    width: 320px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+margin-left: 40px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 100vh;          
+  }
+  
+  #texbode {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+  }
+  
+
+  #nomberform{
+    width: 395px;
+    height: 30px;
+    padding: auto;
+    border-color: #215387;
+    font-size: 17px;
+    text-align: right;
+  }
+  
+  #botonform{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    display: block;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-top: 40px;
+    width: 395px;
+    height: 35px;
+}
+
+
+  
+
+  
