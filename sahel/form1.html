@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>سهل </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<style>
+  #futureDate{
+    width: 380px;
+    background-color: #ffffff;
+    height: 45px;
+  }
+
+  #texdate{
+    text-emphasis: none;
+    text-align: right;
+    text-align: start;
+  }
+
+  #texdate {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#futureDate {
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#selectform{
+
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+  width: 380px;
+    background-color: #ffffff;
+    height: 45px;
+    color: rgba(0, 0, 0, 0.238);
+}
+
+#futureDate {
+    margin-bottom: 30px;
+  }
+
+  #selectform {
+    margin-top: 20px;
+  }
+
+  #imgform1{
+    width: 100%;
+  }
+
+
+
+</style>
+
+<body>
+  <img id="imgform1" src="imgform1.jpg">
+ 
+  <h3> يرجى ملئ جميع البيانات لحجز الموعد </h3>
+  <div class="box-shadow">
+    <form id="form1">
+      <input type="text" name="name" id="userName" placeholder="الاسم" required
+      oninvalid="this.setCustomValidity('يرجى ادخال الاسم الكامل')" 
+          oninput="this.setCustomValidity('')">
+                    
+                    
+      
+      
+      
+      <input type="tel" name="phone" id="phone" placeholder="الرقم المدني" required maxlength="12"
+      
+      oninvalid="this.setCustomValidity('يرجى ادخال الرقم المدني الصحيح')" 
+          oninput="this.setCustomValidity('')">
+                    
+                    
+      <input type="tel" name="phone1" id="phone1" placeholder="رقم الجوال" required maxlength="8"
+      
+      oninvalid="this.setCustomValidity('يرجى ادخال رقم الجوال بشكل صحيح')" 
+          oninput="this.setCustomValidity('')">
+                    
+                    
+      <label id="texdate" for="futureDate" name="datehom">تاريخ الحظور</label
+        >
+      <input type="date" id="futureDate"
+      
+      oninvalid="this.setCustomValidity('يرجى اختيار التاريخ')" 
+          oninput="this.setCustomValidity('')">
+                    
+                    
+      
+      <select id="selectform" name="delivery_time" required
+      
+      
+      oninvalid="this.setCustomValidity('يرجى اختيار القسم ')" 
+          oninput="this.setCustomValidity('')">
+                    
+                    
+        <option value="" disabled selected>-- اختر القسم --</option>
+        <option>قسم تحقيق الشخصية - تبصيم</option>
+        <option>الشركات - محافظة الجهراء</option>
+        <option>قسم تحقيق الشخية - علي صباح</option>
+        <option>السالم - ام الهيمان</option>
+        <option>قسم تحقيق الشخصية - حولي و العاصمة</option>
+        <option>قسم تحقيق الشخصية - الفروانية</option>
+      </select> 
+
+      <button id="botoneform" type="submit">التالي</button>
+      <p id="texmom"></p>
+    </form>
+  </div>
+  <script src="main.html/null/null/null/form.js"></script>
+
+  <script>
+    
+  </script>
+</body>
+</html>
